@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: bitter, 'Courier New', monospace;
+    line-height: 1.5;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  .largerText {
+    font-size: 25px;
+  }
+  
+  p {
+    font-size: 20px
+  }
+  
+  #mainNav {
+    position: sticky; 
+    top: 0;
+    z-index: 10;
+    display: flex;
+    padding: 16px;
+    margin: 0px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  #mainNav img {
+    height: 100px;
+  }
+  
+  #mainNav ul {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+  }
+  
+  #mainNav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  /* #mainNav ul li a:hover {
+    color: set color idk;
+  } */
+  
+  #homeLink:hover{
+    color: #7c7c7c
+  }
+  
+  #freshmenLink:hover {
+    color: #03c500;
+  }
+  
+  #sophomoreLink:hover {
+    color: #5a00ae;
+  }
+  
+  #homePageTitleSection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: #454545;
+    background-color: #e6e6e6;
+  }
+  
+  #homePageTitleSection h1 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  
+  #homePageTitleSection h2 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  
+  #homePageBodySection {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    font-size: 20px;
+  }
+  
+  #homePageBodySection h3 {
+    font-weight: 500;
+  }
+  
+  #homePageBodySection img {
+    margin: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .titleSection {
+    text-align: center;
+    color: #454545;
+    background-color: #e6e6e6;
+  }
+  
+  .titleSection h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .titleSection p {
+    padding-top: 10px;
+  }
+  
+  .bodySection {
+    font-size: 20px;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .bodySection h3 {
+    padding-bottom: 10px;
+  }
+  
+  .bodySection img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .sophomore a {
+    color: #5a00ae;
+  }
+  
+  .sophomore a:visited {
+    color: #5a00ae;
+  }
+  
+  .sophomore a:hover {
+    color: #7700e7;
+  }
+  
+  .freshmen a {
+    color: #029000;
+  }
+  
+  .freshmen a:visited {
+    color: #03c500;
+  }
+  
+  .freshmen a:hover {
+    color: #03c500;
+  }
