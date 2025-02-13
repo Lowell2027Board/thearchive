@@ -87,7 +87,7 @@
     font-size: 30px;
     font-weight: normal;
   }
-
+  
   #homePageBodySection {
     text-align: center;
     justify-content: center;
@@ -100,6 +100,18 @@
     font-weight: 500;
   }
   
+  #homePageBodySection a {
+    color: #5a00ae;
+  }
+  
+  #homePageBodySection a:visited {
+    color: #5a00ae;
+  }
+  
+  #homePageBodySection a:hover {
+    color: #7700e7;
+  }
+
   #homePageBodySection img {
     margin: 40px;
     display: block;
