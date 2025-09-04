@@ -66,6 +66,10 @@
   #sophomoreLink:hover {
     color: #5a00ae;
   }
+
+  #juniorLink:hover {
+    color: #0059d5;
+  }
   
   #homePageTitleSection {
     text-align: center;
@@ -101,15 +105,15 @@
   }
   
   #homePageBodySection a {
-    color: #5a00ae;
+    color: #0044a2;
   }
   
   #homePageBodySection a:visited {
-    color: #5a00ae;
+    color: #0059d5;
   }
   
   #homePageBodySection a:hover {
-    color: #7700e7;
+    color: #0059d5;
   }
 
   #homePageBodySection img {
@@ -174,4 +178,16 @@
   
   .freshmen a:hover {
     color: #03c500;
+  }
+
+  .junior a {
+    color: #0044a2;
+  }
+
+  .junior a:visited {
+    color: #0059d5;
+  }
+
+  .junior a:hover {
+    color: #0059d5;
   }
